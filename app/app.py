@@ -15,5 +15,9 @@ def proyectos():
 def sobremi():
     return render_template('sobre_mi.html')
 
+@app.route('/contacto', methods=['POST', 'GET'])
+def contacto():
+    return render_template('contacto.html')
+
 if __name__ == "__main__":
         app.run(debug=True)

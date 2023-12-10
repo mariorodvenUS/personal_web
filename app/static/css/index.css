@@ -8,7 +8,11 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
   padding: 20px;
   margin-top: 20px;
+  width: 70%; /* Nuevo ajuste para el ancho del contenedor */
+  margin-left: auto; /* Centrar el contenedor en la página */
+  margin-right: auto;
 }
+
 
 .navbar {
   border-radius: 8px; /* Bordes redondeados para la barra de navegación */
